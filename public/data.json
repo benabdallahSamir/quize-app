@@ -1,0 +1,1709 @@
+{
+  "categories": ["Algorithm", "Java", "Web Development", "AI"],
+  "quizzes": [
+    {
+      "question": "What is the default value of a local variable in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "0",
+          "description": "False, because local variables must be initialized before use and do not have a default value."
+        },
+        {
+          "text": "null",
+          "description": "False, because local variables must be initialized before use and do not have a default value."
+        },
+        {
+          "text": "Depends on the data type",
+          "description": "False, because local variables must be initialized before use and do not have a default value."
+        },
+        {
+          "text": "No default value",
+          "description": "True, because local variables must be initialized before use and do not have a default value."
+        }
+      ],
+      "answerNumber": [3],
+      "userAnswer": []
+    },
+    {
+      "question": "Which keyword is used to define a constant in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "const",
+          "description": "False, because 'const' is a reserved keyword but not used in Java."
+        },
+        {
+          "text": "final",
+          "description": "True, because 'final' is used to define a constant in Java."
+        },
+        {
+          "text": "static",
+          "description": "False, because 'static' is used to define class-level variables or methods."
+        },
+        {
+          "text": "define",
+          "description": "False, because 'define' is not a keyword in Java."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the size of a 'char' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "8 bits",
+          "description": "False, because a 'char' in Java is 16 bits."
+        },
+        {
+          "text": "16 bits",
+          "description": "True, because a 'char' in Java is 16 bits to support Unicode characters."
+        },
+        {
+          "text": "32 bits",
+          "description": "False, because a 'char' in Java is not 32 bits."
+        },
+        {
+          "text": "64 bits",
+          "description": "False, because a 'char' in Java is not 64 bits."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is not a primitive data type in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "int",
+          "description": "False, because 'int' is a primitive data type."
+        },
+        {
+          "text": "boolean",
+          "description": "False, because 'boolean' is a primitive data type."
+        },
+        {
+          "text": "String",
+          "description": "True, because 'String' is a class, not a primitive data type."
+        },
+        {
+          "text": "float",
+          "description": "False, because 'float' is a primitive data type."
+        }
+      ],
+      "answerNumber": [2],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(5 + \"5\");' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "10",
+          "description": "False, because the '+' operator concatenates strings when one operand is a string."
+        },
+        {
+          "text": "55",
+          "description": "True, because the '+' operator concatenates the string '5' with the number 5."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        },
+        {
+          "text": "5",
+          "description": "False, because the expression evaluates to '55', not '5'."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java's 'main' method?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "It must be private.",
+          "description": "False, because the 'main' method must be public."
+        },
+        {
+          "text": "It must return an integer.",
+          "description": "False, because the 'main' method must have a 'void' return type."
+        },
+        {
+          "text": "It must be static.",
+          "description": "True, because the 'main' method must be static to be called without an instance."
+        },
+        {
+          "text": "It must accept a String array as an argument.",
+          "description": "True, because the 'main' method must accept a String array as an argument."
+        }
+      ],
+      "answerNumber": [2],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the superclass of all classes in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "Object",
+          "description": "True, because 'Object' is the superclass of all classes in Java."
+        },
+        {
+          "text": "Class",
+          "description": "False, because 'Class' is not the superclass of all classes."
+        },
+        {
+          "text": "Main",
+          "description": "False, because 'Main' is not a superclass in Java."
+        },
+        {
+          "text": "Super",
+          "description": "False, because 'Super' is a keyword, not a superclass."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is used to handle exceptions in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "try-catch",
+          "description": "True, because 'try-catch' is used to handle exceptions."
+        },
+        {
+          "text": "if-else",
+          "description": "False, because 'if-else' is used for conditional logic, not exception handling."
+        },
+        {
+          "text": "switch-case",
+          "description": "False, because 'switch-case' is used for multi-way branching, not exception handling."
+        },
+        {
+          "text": "for-loop",
+          "description": "False, because 'for-loop' is used for iteration, not exception handling."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of the 'finally' block in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "To execute code regardless of whether an exception is thrown.",
+          "description": "True, because the 'finally' block always executes, regardless of exceptions."
+        },
+        {
+          "text": "To handle exceptions.",
+          "description": "False, because exceptions are handled in the 'catch' block."
+        },
+        {
+          "text": "To define a block of code that will never execute.",
+          "description": "False, because the 'finally' block always executes."
+        },
+        {
+          "text": "To terminate the program.",
+          "description": "False, because the 'finally' block does not terminate the program."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is not a valid Java identifier?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "_variable",
+          "description": "False, because '_variable' is a valid identifier."
+        },
+        {
+          "text": "variable1",
+          "description": "False, because 'variable1' is a valid identifier."
+        },
+        {
+          "text": "1variable",
+          "description": "True, because identifiers cannot start with a digit."
+        },
+        {
+          "text": "$variable",
+          "description": "False, because '$variable' is a valid identifier."
+        }
+      ],
+      "answerNumber": [2],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(10 / 3);' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "3",
+          "description": "True, because integer division truncates the decimal part."
+        },
+        {
+          "text": "3.333",
+          "description": "False, because integer division does not include decimal places."
+        },
+        {
+          "text": "3.0",
+          "description": "False, because integer division results in an integer, not a floating-point number."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java interfaces?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "They can have method implementations.",
+          "description": "False, because interfaces cannot have method implementations (prior to Java 8)."
+        },
+        {
+          "text": "They can extend multiple interfaces.",
+          "description": "True, because interfaces can extend multiple interfaces."
+        },
+        {
+          "text": "They can have instance variables.",
+          "description": "False, because interfaces cannot have instance variables."
+        },
+        {
+          "text": "They can be instantiated.",
+          "description": "False, because interfaces cannot be instantiated."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of the 'super' keyword in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "To call a superclass constructor.",
+          "description": "True, because 'super' is used to call a superclass constructor or method."
+        },
+        {
+          "text": "To create a new object.",
+          "description": "False, because 'super' is not used to create objects."
+        },
+        {
+          "text": "To define a static method.",
+          "description": "False, because 'super' is not related to static methods."
+        },
+        {
+          "text": "To access private variables.",
+          "description": "False, because 'super' cannot access private variables."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(\"Java\".length());' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "4",
+          "description": "True, because the length of the string 'Java' is 4."
+        },
+        {
+          "text": "5",
+          "description": "False, because the length of the string 'Java' is not 5."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        },
+        {
+          "text": "0",
+          "description": "False, because the length of the string 'Java' is not 0."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java's 'final' keyword?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "It prevents a class from being extended.",
+          "description": "True, because 'final' prevents a class from being extended."
+        },
+        {
+          "text": "It allows a method to be overridden.",
+          "description": "False, because 'final' prevents a method from being overridden."
+        },
+        {
+          "text": "It makes a variable mutable.",
+          "description": "False, because 'final' makes a variable immutable."
+        },
+        {
+          "text": "It is used to define abstract classes.",
+          "description": "False, because 'final' is not used to define abstract classes."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(10 % 3);' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "1",
+          "description": "True, because the remainder of 10 divided by 3 is 1."
+        },
+        {
+          "text": "3",
+          "description": "False, because the remainder is not 3."
+        },
+        {
+          "text": "0",
+          "description": "False, because the remainder is not 0."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java's 'static' keyword?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "It allows a method to be called without an instance of the class.",
+          "description": "True, because 'static' methods can be called without an instance."
+        },
+        {
+          "text": "It makes a variable mutable.",
+          "description": "False, because 'static' does not affect mutability."
+        },
+        {
+          "text": "It prevents a class from being instantiated.",
+          "description": "False, because 'static' does not prevent instantiation."
+        },
+        {
+          "text": "It is used to define abstract methods.",
+          "description": "False, because 'static' is not related to abstract methods."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(Math.abs(-5));' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "5",
+          "description": "True, because the absolute value of -5 is 5."
+        },
+        {
+          "text": "-5",
+          "description": "False, because the absolute value is not negative."
+        },
+        {
+          "text": "0",
+          "description": "False, because the absolute value is not 0."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java's 'this' keyword?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "It refers to the current instance of the class.",
+          "description": "True, because 'this' refers to the current instance."
+        },
+        {
+          "text": "It refers to the superclass.",
+          "description": "False, because 'this' does not refer to the superclass."
+        },
+        {
+          "text": "It is used to call static methods.",
+          "description": "False, because 'this' is not used for static methods."
+        },
+        {
+          "text": "It is used to define constructors.",
+          "description": "False, because 'this' is not used to define constructors."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(\"Java\".charAt(2));' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "v",
+          "description": "True, because the character at index 2 in 'Java' is 'v'."
+        },
+        {
+          "text": "J",
+          "description": "False, because 'J' is at index 0."
+        },
+        {
+          "text": "a",
+          "description": "False, because 'a' is at index 1."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about Java's 'abstract' keyword?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "It prevents a class from being instantiated.",
+          "description": "True, because abstract classes cannot be instantiated."
+        },
+        {
+          "text": "It allows a method to have a body.",
+          "description": "False, because abstract methods cannot have a body."
+        },
+        {
+          "text": "It makes a class final.",
+          "description": "False, because 'abstract' and 'final' are mutually exclusive."
+        },
+        {
+          "text": "It is used to define static methods.",
+          "description": "False, because 'abstract' is not related to static methods."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the output of 'System.out.println(10 > 9 ? \"Yes\" : \"No\");' in Java?",
+      "category": "Java",
+      "choices": [
+        {
+          "text": "Yes",
+          "description": "True, because 10 is greater than 9."
+        },
+        {
+          "text": "No",
+          "description": "False, because 10 is greater than 9."
+        },
+        {
+          "text": "Error",
+          "description": "False, because the expression is valid and will not cause an error."
+        },
+        {
+          "text": "None",
+          "description": "False, because the expression evaluates to 'Yes'."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary goal of Artificial Intelligence?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To mimic human intelligence",
+          "description": "True, because AI aims to replicate human-like decision-making and problem-solving."
+        },
+        {
+          "text": "To replace human workers",
+          "description": "False, because AI is designed to assist, not necessarily replace humans."
+        },
+        {
+          "text": "To create robots",
+          "description": "False, because AI is not limited to robotics; it includes software and algorithms."
+        },
+        {
+          "text": "To eliminate the need for programming",
+          "description": "False, because AI still requires programming and algorithms to function."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is a subset of AI?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "Machine Learning",
+          "description": "True, because Machine Learning is a subset of AI focused on data-driven learning."
+        },
+        {
+          "text": "Data Mining",
+          "description": "False, because Data Mining is a separate field, though it can be used in AI."
+        },
+        {
+          "text": "Web Development",
+          "description": "False, because Web Development is unrelated to AI."
+        },
+        {
+          "text": "Database Management",
+          "description": "False, because Database Management is a separate field."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the main function of a neural network in AI?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To simulate the human brain's decision-making process",
+          "description": "True, because neural networks are inspired by the structure and function of the human brain."
+        },
+        {
+          "text": "To store large amounts of data",
+          "description": "False, because neural networks are not designed for data storage."
+        },
+        {
+          "text": "To replace traditional programming",
+          "description": "False, because neural networks are a tool within AI, not a replacement for programming."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because neural networks are not used for database optimization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is an example of supervised learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "Training a model to classify emails as spam or not spam",
+          "description": "True, because supervised learning uses labeled data to train models."
+        },
+        {
+          "text": "Clustering customers based on purchasing behavior",
+          "description": "False, because clustering is an example of unsupervised learning."
+        },
+        {
+          "text": "Training a model to play chess",
+          "description": "False, because this is typically done using reinforcement learning."
+        },
+        {
+          "text": "Predicting stock prices without labeled data",
+          "description": "False, because this would typically involve unsupervised or reinforcement learning."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of the 'loss function' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To measure the difference between predicted and actual values",
+          "description": "True, because the loss function quantifies the error of a model's predictions."
+        },
+        {
+          "text": "To optimize database performance",
+          "description": "False, because the loss function is unrelated to databases."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because the loss function is not used for data storage."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because the loss function is not used for data visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the role of 'activation functions' in neural networks?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To introduce non-linearity into the model",
+          "description": "True, because activation functions allow neural networks to learn complex patterns."
+        },
+        {
+          "text": "To store weights and biases",
+          "description": "False, because activation functions do not store weights or biases."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because activation functions are unrelated to databases."
+        },
+        {
+          "text": "To visualize neural network layers",
+          "description": "False, because activation functions are not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is an example of reinforcement learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "Training a robot to navigate a maze",
+          "description": "True, because reinforcement learning involves learning through trial and error."
+        },
+        {
+          "text": "Classifying images of cats and dogs",
+          "description": "False, because this is an example of supervised learning."
+        },
+        {
+          "text": "Grouping customers based on purchasing behavior",
+          "description": "False, because this is an example of unsupervised learning."
+        },
+        {
+          "text": "Predicting stock prices using historical data",
+          "description": "False, because this is typically done using supervised learning."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of 'overfitting' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "It occurs when a model performs well on training data but poorly on unseen data",
+          "description": "True, because overfitting means the model has memorized the training data instead of generalizing."
+        },
+        {
+          "text": "It improves the model's performance on unseen data",
+          "description": "False, because overfitting reduces performance on unseen data."
+        },
+        {
+          "text": "It is a technique to optimize database queries",
+          "description": "False, because overfitting is unrelated to databases."
+        },
+        {
+          "text": "It is a method to visualize data",
+          "description": "False, because overfitting is not related to data visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the main advantage of using convolutional neural networks (CNNs)?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "They are effective for image recognition tasks",
+          "description": "True, because CNNs are designed to process grid-like data such as images."
+        },
+        {
+          "text": "They are used for text processing",
+          "description": "False, because CNNs are not primarily designed for text processing."
+        },
+        {
+          "text": "They are used for database optimization",
+          "description": "False, because CNNs are unrelated to databases."
+        },
+        {
+          "text": "They are used for data visualization",
+          "description": "False, because CNNs are not used for data visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of 'backpropagation' in neural networks?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To adjust the weights of the network to minimize error",
+          "description": "True, because backpropagation is used to update weights during training."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because backpropagation is not used for data storage."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because backpropagation is unrelated to databases."
+        },
+        {
+          "text": "To visualize neural network layers",
+          "description": "False, because backpropagation is not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary use of Natural Language Processing (NLP)?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To enable machines to understand and process human language",
+          "description": "True, because NLP focuses on interactions between computers and human language."
+        },
+        {
+          "text": "To optimize database performance",
+          "description": "False, because NLP is unrelated to databases."
+        },
+        {
+          "text": "To create virtual reality environments",
+          "description": "False, because NLP is not used for virtual reality."
+        },
+        {
+          "text": "To design hardware components",
+          "description": "False, because NLP is a software-based field."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of 'feature engineering' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To select and transform variables to improve model performance",
+          "description": "True, because feature engineering involves creating meaningful input features."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because feature engineering is unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because feature engineering is not used for visualization."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because feature engineering is not used for data storage."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the main purpose of 'clustering' in unsupervised learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To group similar data points together",
+          "description": "True, because clustering identifies patterns and groups in unlabeled data."
+        },
+        {
+          "text": "To classify data into predefined categories",
+          "description": "False, because classification is a supervised learning task."
+        },
+        {
+          "text": "To optimize database performance",
+          "description": "False, because clustering is unrelated to databases."
+        },
+        {
+          "text": "To visualize neural networks",
+          "description": "False, because clustering is not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary function of 'gradient descent' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To minimize the loss function",
+          "description": "True, because gradient descent is an optimization algorithm."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because gradient descent is not used for data storage."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because gradient descent is unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because gradient descent is not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of 'regularization' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To prevent overfitting",
+          "description": "True, because regularization reduces model complexity."
+        },
+        {
+          "text": "To increase model complexity",
+          "description": "False, because regularization reduces complexity."
+        },
+        {
+          "text": "To optimize database performance",
+          "description": "False, because regularization is unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because regularization is not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary use of 'transfer learning' in AI?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To leverage pre-trained models for new tasks",
+          "description": "True, because transfer learning uses knowledge from one task to improve another."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because transfer learning is unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because transfer learning is not used for visualization."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because transfer learning is not used for data storage."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary purpose of 'hyperparameter tuning' in Machine Learning?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To optimize model performance",
+          "description": "True, because hyperparameter tuning improves model accuracy."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because hyperparameter tuning is not used for data storage."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because hyperparameter tuning is unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because hyperparameter tuning is not used for visualization."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary use of 'autoencoders' in AI?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To perform dimensionality reduction",
+          "description": "True, because autoencoders compress data into a lower-dimensional representation."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because autoencoders are unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because autoencoders are not used for visualization."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because autoencoders are not used for data storage."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the primary purpose of 'generative adversarial networks (GANs)'?",
+      "category": "AI",
+      "choices": [
+        {
+          "text": "To generate new data similar to the training data",
+          "description": "True, because GANs consist of two networks that compete to generate realistic data."
+        },
+        {
+          "text": "To optimize database queries",
+          "description": "False, because GANs are unrelated to databases."
+        },
+        {
+          "text": "To visualize data",
+          "description": "False, because GANs are not used for visualization."
+        },
+        {
+          "text": "To store training data",
+          "description": "False, because GANs are not used for data storage."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Bubble Sort algorithm in the worst case?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Bubble Sort compares each element multiple times, leading to O(n^2) in the worst case."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "False, because Bubble Sort does not divide the problem like algorithms with O(n log n) complexity."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "True, because Bubble Sort requires nested loops to compare and swap elements."
+        },
+        {
+          "text": "O(1)",
+          "description": "False, because Bubble Sort requires more than constant time to sort elements."
+        }
+      ],
+      "answerNumber": [2],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is a divide-and-conquer algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Merge Sort",
+          "description": "True, because Merge Sort divides the array into smaller subarrays, sorts them, and merges them."
+        },
+        {
+          "text": "Bubble Sort",
+          "description": "False, because Bubble Sort does not divide the problem into smaller subproblems."
+        },
+        {
+          "text": "Insertion Sort",
+          "description": "False, because Insertion Sort builds the sorted array one element at a time."
+        },
+        {
+          "text": "Selection Sort",
+          "description": "False, because Selection Sort repeatedly selects the smallest element and swaps it."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the best-case time complexity of Quick Sort?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Quick Sort requires at least O(n log n) even in the best case."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "True, because Quick Sort divides the array into balanced partitions in the best case."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because O(n^2) is the worst-case time complexity of Quick Sort."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Quick Sort requires more than logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which data structure is typically used to implement a queue?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Array",
+          "description": "True, because arrays can be used to implement queues, though linked lists are more common."
+        },
+        {
+          "text": "Stack",
+          "description": "False, because stacks follow LIFO, while queues follow FIFO."
+        },
+        {
+          "text": "Tree",
+          "description": "False, because trees are not used to implement queues."
+        },
+        {
+          "text": "Graph",
+          "description": "False, because graphs are not used to implement queues."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of searching in a balanced binary search tree?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because searching in a balanced BST is more efficient than O(n)."
+        },
+        {
+          "text": "O(log n)",
+          "description": "True, because a balanced BST reduces the search space by half at each step."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "False, because O(n log n) is the time complexity of sorting algorithms."
+        },
+        {
+          "text": "O(1)",
+          "description": "False, because searching in a BST requires logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Dijkstra's Algorithm",
+          "description": "True, because Dijkstra's Algorithm finds the shortest path in a weighted graph."
+        },
+        {
+          "text": "Breadth-First Search (BFS)",
+          "description": "False, because BFS is used for unweighted graphs."
+        },
+        {
+          "text": "Depth-First Search (DFS)",
+          "description": "False, because DFS does not guarantee the shortest path."
+        },
+        {
+          "text": "Kruskal's Algorithm",
+          "description": "False, because Kruskal's Algorithm is used for finding minimum spanning trees."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the space complexity of the Merge Sort algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(1)",
+          "description": "False, because Merge Sort requires additional space for merging subarrays."
+        },
+        {
+          "text": "O(n)",
+          "description": "True, because Merge Sort uses auxiliary space proportional to the input size."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Merge Sort requires more space than logarithmic."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because Merge Sort does not require quadratic space."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is a greedy algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Dijkstra's Algorithm",
+          "description": "True, because Dijkstra's Algorithm makes locally optimal choices at each step."
+        },
+        {
+          "text": "Merge Sort",
+          "description": "False, because Merge Sort is a divide-and-conquer algorithm."
+        },
+        {
+          "text": "Quick Sort",
+          "description": "False, because Quick Sort is a divide-and-conquer algorithm."
+        },
+        {
+          "text": "Depth-First Search (DFS)",
+          "description": "False, because DFS is a graph traversal algorithm, not a greedy algorithm."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Heap Sort algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Heap Sort requires more than linear time."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "True, because Heap Sort builds a heap and performs heapify operations."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because Heap Sort is more efficient than O(n^2)."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Heap Sort requires more than logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about dynamic programming?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It breaks problems into overlapping subproblems",
+          "description": "True, because dynamic programming solves problems by combining solutions to overlapping subproblems."
+        },
+        {
+          "text": "It is used only for sorting algorithms",
+          "description": "False, because dynamic programming is used for optimization problems, not just sorting."
+        },
+        {
+          "text": "It does not use memoization",
+          "description": "False, because dynamic programming often uses memoization to store intermediate results."
+        },
+        {
+          "text": "It is a greedy algorithm",
+          "description": "False, because dynamic programming is not a greedy algorithm."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of the 'Floyd-Warshall Algorithm'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "To find the shortest paths between all pairs of vertices in a graph",
+          "description": "True, because the Floyd-Warshall Algorithm computes shortest paths for all pairs."
+        },
+        {
+          "text": "To sort an array",
+          "description": "False, because the Floyd-Warshall Algorithm is not a sorting algorithm."
+        },
+        {
+          "text": "To find the minimum spanning tree",
+          "description": "False, because the Floyd-Warshall Algorithm is not used for minimum spanning trees."
+        },
+        {
+          "text": "To perform matrix multiplication",
+          "description": "False, because the Floyd-Warshall Algorithm is unrelated to matrix multiplication."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Breadth-First Search (BFS) algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(V + E)",
+          "description": "True, because BFS visits each vertex and edge once."
+        },
+        {
+          "text": "O(V log E)",
+          "description": "False, because BFS does not use logarithmic operations."
+        },
+        {
+          "text": "O(V^2)",
+          "description": "False, because BFS is more efficient than O(V^2)."
+        },
+        {
+          "text": "O(E log V)",
+          "description": "False, because BFS does not use logarithmic operations."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about the 'Knapsack Problem'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It is an optimization problem",
+          "description": "True, because the Knapsack Problem involves maximizing value without exceeding capacity."
+        },
+        {
+          "text": "It is a sorting problem",
+          "description": "False, because the Knapsack Problem is not related to sorting."
+        },
+        {
+          "text": "It can only be solved using greedy algorithms",
+          "description": "False, because the Knapsack Problem can also be solved using dynamic programming."
+        },
+        {
+          "text": "It is a graph traversal problem",
+          "description": "False, because the Knapsack Problem is unrelated to graph traversal."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Depth-First Search (DFS) algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(V + E)",
+          "description": "True, because DFS visits each vertex and edge once."
+        },
+        {
+          "text": "O(V log E)",
+          "description": "False, because DFS does not use logarithmic operations."
+        },
+        {
+          "text": "O(V^2)",
+          "description": "False, because DFS is more efficient than O(V^2)."
+        },
+        {
+          "text": "O(E log V)",
+          "description": "False, because DFS does not use logarithmic operations."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about the 'Bellman-Ford Algorithm'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It can handle graphs with negative edge weights",
+          "description": "True, because the Bellman-Ford Algorithm works with negative weights."
+        },
+        {
+          "text": "It is faster than Dijkstra's Algorithm",
+          "description": "False, because the Bellman-Ford Algorithm is slower than Dijkstra's Algorithm."
+        },
+        {
+          "text": "It is used only for unweighted graphs",
+          "description": "False, because the Bellman-Ford Algorithm is used for weighted graphs."
+        },
+        {
+          "text": "It cannot detect negative cycles",
+          "description": "False, because the Bellman-Ford Algorithm can detect negative cycles."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Bubble Sort algorithm in the worst case?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Bubble Sort compares each element multiple times, leading to O(n^2) in the worst case."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "False, because Bubble Sort does not divide the problem like algorithms with O(n log n) complexity."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "True, because Bubble Sort requires nested loops to compare and swap elements."
+        },
+        {
+          "text": "O(1)",
+          "description": "False, because Bubble Sort requires more than constant time to sort elements."
+        }
+      ],
+      "answerNumber": [2],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is a divide-and-conquer algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Merge Sort",
+          "description": "True, because Merge Sort divides the array into smaller subarrays, sorts them, and merges them."
+        },
+        {
+          "text": "Bubble Sort",
+          "description": "False, because Bubble Sort does not divide the problem into smaller subproblems."
+        },
+        {
+          "text": "Insertion Sort",
+          "description": "False, because Insertion Sort builds the sorted array one element at a time."
+        },
+        {
+          "text": "Selection Sort",
+          "description": "False, because Selection Sort repeatedly selects the smallest element and swaps it."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the best-case time complexity of Quick Sort?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Quick Sort requires at least O(n log n) even in the best case."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "True, because Quick Sort divides the array into balanced partitions in the best case."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because O(n^2) is the worst-case time complexity of Quick Sort."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Quick Sort requires more than logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which data structure is typically used to implement a queue?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Array",
+          "description": "True, because arrays can be used to implement queues, though linked lists are more common."
+        },
+        {
+          "text": "Stack",
+          "description": "False, because stacks follow LIFO, while queues follow FIFO."
+        },
+        {
+          "text": "Tree",
+          "description": "False, because trees are not used to implement queues."
+        },
+        {
+          "text": "Graph",
+          "description": "False, because graphs are not used to implement queues."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of searching in a balanced binary search tree?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because searching in a balanced BST is more efficient than O(n)."
+        },
+        {
+          "text": "O(log n)",
+          "description": "True, because a balanced BST reduces the search space by half at each step."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "False, because O(n log n) is the time complexity of sorting algorithms."
+        },
+        {
+          "text": "O(1)",
+          "description": "False, because searching in a BST requires logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Dijkstra's Algorithm",
+          "description": "True, because Dijkstra's Algorithm finds the shortest path in a weighted graph."
+        },
+        {
+          "text": "Breadth-First Search (BFS)",
+          "description": "False, because BFS is used for unweighted graphs."
+        },
+        {
+          "text": "Depth-First Search (DFS)",
+          "description": "False, because DFS does not guarantee the shortest path."
+        },
+        {
+          "text": "Kruskal's Algorithm",
+          "description": "False, because Kruskal's Algorithm is used for finding minimum spanning trees."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the space complexity of the Merge Sort algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(1)",
+          "description": "False, because Merge Sort requires additional space for merging subarrays."
+        },
+        {
+          "text": "O(n)",
+          "description": "True, because Merge Sort uses auxiliary space proportional to the input size."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Merge Sort requires more space than logarithmic."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because Merge Sort does not require quadratic space."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is a greedy algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "Dijkstra's Algorithm",
+          "description": "True, because Dijkstra's Algorithm makes locally optimal choices at each step."
+        },
+        {
+          "text": "Merge Sort",
+          "description": "False, because Merge Sort is a divide-and-conquer algorithm."
+        },
+        {
+          "text": "Quick Sort",
+          "description": "False, because Quick Sort is a divide-and-conquer algorithm."
+        },
+        {
+          "text": "Depth-First Search (DFS)",
+          "description": "False, because DFS is a graph traversal algorithm, not a greedy algorithm."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Heap Sort algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(n)",
+          "description": "False, because Heap Sort requires more than linear time."
+        },
+        {
+          "text": "O(n log n)",
+          "description": "True, because Heap Sort builds a heap and performs heapify operations."
+        },
+        {
+          "text": "O(n^2)",
+          "description": "False, because Heap Sort is more efficient than O(n^2)."
+        },
+        {
+          "text": "O(log n)",
+          "description": "False, because Heap Sort requires more than logarithmic time."
+        }
+      ],
+      "answerNumber": [1],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about dynamic programming?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It breaks problems into overlapping subproblems",
+          "description": "True, because dynamic programming solves problems by combining solutions to overlapping subproblems."
+        },
+        {
+          "text": "It is used only for sorting algorithms",
+          "description": "False, because dynamic programming is used for optimization problems, not just sorting."
+        },
+        {
+          "text": "It does not use memoization",
+          "description": "False, because dynamic programming often uses memoization to store intermediate results."
+        },
+        {
+          "text": "It is a greedy algorithm",
+          "description": "False, because dynamic programming is not a greedy algorithm."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the purpose of the 'Floyd-Warshall Algorithm'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "To find the shortest paths between all pairs of vertices in a graph",
+          "description": "True, because the Floyd-Warshall Algorithm computes shortest paths for all pairs."
+        },
+        {
+          "text": "To sort an array",
+          "description": "False, because the Floyd-Warshall Algorithm is not a sorting algorithm."
+        },
+        {
+          "text": "To find the minimum spanning tree",
+          "description": "False, because the Floyd-Warshall Algorithm is not used for minimum spanning trees."
+        },
+        {
+          "text": "To perform matrix multiplication",
+          "description": "False, because the Floyd-Warshall Algorithm is unrelated to matrix multiplication."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Breadth-First Search (BFS) algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(V + E)",
+          "description": "True, because BFS visits each vertex and edge once."
+        },
+        {
+          "text": "O(V log E)",
+          "description": "False, because BFS does not use logarithmic operations."
+        },
+        {
+          "text": "O(V^2)",
+          "description": "False, because BFS is more efficient than O(V^2)."
+        },
+        {
+          "text": "O(E log V)",
+          "description": "False, because BFS does not use logarithmic operations."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about the 'Knapsack Problem'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It is an optimization problem",
+          "description": "True, because the Knapsack Problem involves maximizing value without exceeding capacity."
+        },
+        {
+          "text": "It is a sorting problem",
+          "description": "False, because the Knapsack Problem is not related to sorting."
+        },
+        {
+          "text": "It can only be solved using greedy algorithms",
+          "description": "False, because the Knapsack Problem can also be solved using dynamic programming."
+        },
+        {
+          "text": "It is a graph traversal problem",
+          "description": "False, because the Knapsack Problem is unrelated to graph traversal."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "What is the time complexity of the Depth-First Search (DFS) algorithm?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "O(V + E)",
+          "description": "True, because DFS visits each vertex and edge once."
+        },
+        {
+          "text": "O(V log E)",
+          "description": "False, because DFS does not use logarithmic operations."
+        },
+        {
+          "text": "O(V^2)",
+          "description": "False, because DFS is more efficient than O(V^2)."
+        },
+        {
+          "text": "O(E log V)",
+          "description": "False, because DFS does not use logarithmic operations."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    },
+    {
+      "question": "Which of the following is true about the 'Bellman-Ford Algorithm'?",
+      "category": "Algorithm",
+      "choices": [
+        {
+          "text": "It can handle graphs with negative edge weights",
+          "description": "True, because the Bellman-Ford Algorithm works with negative weights."
+        },
+        {
+          "text": "It is faster than Dijkstra's Algorithm",
+          "description": "False, because the Bellman-Ford Algorithm is slower than Dijkstra's Algorithm."
+        },
+        {
+          "text": "It is used only for unweighted graphs",
+          "description": "False, because the Bellman-Ford Algorithm is used for weighted graphs."
+        },
+        {
+          "text": "It cannot detect negative cycles",
+          "description": "False, because the Bellman-Ford Algorithm can detect negative cycles."
+        }
+      ],
+      "answerNumber": [0],
+      "userAnswer": []
+    }
+  ]
+}
